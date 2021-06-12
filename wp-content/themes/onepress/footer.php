@@ -64,11 +64,8 @@ if ( ! $hide_footer ) {
  *
  * @see onepress_site_footer
  */
-do_action( 'onepress_site_end' );
 ?>
 </div><!-- #page -->
-
-<?php do_action( 'onepress_after_site_end' ); ?>
 
 <?php wp_footer(); ?>
 
